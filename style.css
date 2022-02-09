@@ -10,7 +10,8 @@ body{
     background: #c7c4be;
 }
 .container{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 :root{
@@ -36,7 +37,8 @@ body{
     background: rgba(0, 0, 0, .5);
 }
 header{
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     float: right;
@@ -95,7 +97,8 @@ header .fa-th{
 .hero{
    position: absolute;
    top: 25vh;
-   width: 1000px;
+   max-width: 1000px;
+   width: 100%;
     display: flex;
     left: 200px;
     color: white;
@@ -161,7 +164,8 @@ header .fa-th{
       padding: 30px 0;
   }
   .prod1{
-      width: 290px;
+      width: 100%;
+      max-width: 290px;
       float: right;
       padding-right: 1px;
   }
@@ -170,7 +174,8 @@ header .fa-th{
       padding: 30px 0;
   }
   .cake1{
-      width: 200px;
+      width: 100%;
+      max-width: 200px;
       margin: 0 auto;
       
   }
@@ -179,7 +184,8 @@ header .fa-th{
       padding: 30px 0;
   }
   .flav1{
-    width:290px;
+      width: 100%;
+    max-width:290px;
     float: left;
     padding-left: 20px;
   }
@@ -188,7 +194,8 @@ header .fa-th{
     background: white;
   }
   .three-box{
-      width: 800px;
+      width: 100%;
+     max-width: 800px;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1.5fr 2fr;
@@ -214,7 +221,7 @@ header .fa-th{
       opacity: .5;
   }
   .three-box-2{
-      margin-left: 180px;
+
   }
   .three-box-2 h3{
       margin-bottom: .5rem;
@@ -231,7 +238,8 @@ header .fa-th{
       display: grid;
       grid-template-columns: 1fr 5fr;
         color: white;
-      width:800px;
+      max-width:800px;
+      width: 100%;
       margin: 0 auto;
       padding-bottom: 30px;
       position: relative;
@@ -264,7 +272,8 @@ header .fa-th{
       border-left: 10px solid transparent;
   }
   .three-text{
-      width: 800px;
+      width: 100%;
+      max-width: 800px;
       margin: 0 auto;
       padding-bottom: 6rem;
   }
@@ -284,14 +293,15 @@ header .fa-th{
       position: relative;
   }
   .four-inner{
-      width: 800px;
+      width: 100%;
+      max-width: 800px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
   }
   .four-inner p{
-      width: 450px;
-      font-size: .9rem;
+      width: 65ch;
+      font-size: .8rem;
       line-height: 1.1rem;
       margin-bottom: 5px;
   }
@@ -329,7 +339,8 @@ header .fa-th{
         left: 470px;
   }
   .four-imgs{
-      width: 800px;
+      width: 100%;
+      max-width: 800px;
       margin: 0 auto;
     position: absolute;
     left: 200px;
@@ -448,16 +459,19 @@ header .fa-th{
   .five-cont{
       max-width: 800px;
       width: 100%;
-      display: grid;
       margin: 0 auto;
-      grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
   }
   .five-cont1{
-      width: 200px;
+      width: 100%;
+      max-width: 250px;
       text-align: center;
   }
   .five-cont1 p{
-            font-size: .6rem;
+            font-size: .7rem;
             text-align: center;
   }
 
